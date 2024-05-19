@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wallet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Wallet - FoodyApp</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <!--Logo-->
+        <h1 class="logo">FoodyApp</h1>
+
+        <!--List of menus-->
+        <div class="sidebar-menus">
+            <a href="homepage.html"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+            <a href="walletpage.html"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+            <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notification</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact </a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+        </div>
+        <!--Logout-->
+        <div class="sidebar-logout">
+            <a href="registpage.html"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+        </div>
+    </div>
+
+    <div class="main-navbar">
+        <!--Mobile Version-->
+        <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+         </div>
+
+    <div class="main">
+        <div class="wallet-card">
+            <div class="info">
+                <div class="wallet-info">
+                    <h2>Wallet</h2>
+                </div>
+                <div class="wallet-balance">
+                    <h1>Rp500.000</h1>
+
+                </div>
+            </div>
+            <div class="option">
+                <a href="#"><box-icon name='log-in'></box-icon>Deposit</a>
+                <a href="#"><box-icon name='log-out' ></box-icon>Withdraw</a>
+                <a href="#"><box-icon name='group'></box-icon>Sent to</a>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+<!--JavaScript-->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="wallet.js"></script>
+
+</html>
